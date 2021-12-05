@@ -1,0 +1,124 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+a{
+	color: inherit;
+}
+
+/* ------ Navbar ------ */
+.navbar{
+	background-color: #f9a53b;
+}
+
+.navbar-brand{
+	letter-spacing: -2px;
+	font-size: 30px;
+	color: #31426b;
+}
+
+nav ul li:hover{
+	font-weight: bold;
+}
+
+/* ------ Jumbotron ------ */
+.img-jumbotron{
+	width: 100%;
+}
+
+.header-jumbotron{
+	margin-top: 100px;
+}
+
+.btn-kontak{
+	background-color: #f9a53b;
+}
+
+#jumbotron{
+	padding-top: 100px;
+}
+
+/* ------ Profil ------ */
+#profil{
+	background-color: #d8dff4;
+}
+
+.img-profil{
+	width: 100%;
+}
+
+.btn-profil{
+	color: #31426b;
+	outline: 2px solid #31426b;
+}
+
+/* ------ Produk ------ */
+.produk{
+	padding-top: 100px;
+}
+
+.kolom-produk{
+	background-color: white;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	padding: 15px;
+	margin-right: 30px;
+}
+
+.header-produk{
+	margin-top: 30px;
+}
+
+/* ------ Alasan ------ */
+#alasan{
+	background-color: #d8dff4;
+}
+
+.kolom-alasan{
+	background-color: white;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 50px;
+}
+
+.bi{
+	color: #f9a53b;
+}
+
+/* ------ Kontak ------ */
+#kontak{
+	padding-top: 100px;
+}
+
+/* ------ Footer ------ */
+.footer{
+	background-color: #31426b;
+	margin-top: 200px;
+}
+
+/* ------- Ukuran Mobile ------ */
+@media (max-width: 767px) {
+	.header-jumbotron{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.header-produk{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.kolom-produk{
+		margin: 10px 0;
+
+	}
+
+	.produk{
+		margin: 0 10px;
+	}
+
+	.alasan{
+		margin: 0 10px;
+	}
+}
